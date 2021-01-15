@@ -1,0 +1,30 @@
+<!-- 
+# ---------------------------------------------------------------- #
+# Script:        index.html
+# Description:   pagina inicial
+# Written by	 vanderson.lima/antonio.silva
+# Date:			 12.01.2021
+#            	 Grupo Vicoa Brasil
+# ---------------------------------------------------------------- #
+-->
+<html>
+<head>
+    <meta charset=iso-8859-1>
+	<title>GVB - Exportar Dados</title>
+</head>
+<body>
+
+Exportar Tudo
+<form action="exportar_tudo.php" method="post">
+ <p><input type="submit" value="Exportar Tudo" /></p>
+</form>
+
+Exportar por CPF
+<form action="exportar_cpf.php" method="post">
+ <p>CPF: <input type="text" name="cpf" placeholder="apenas números" maxlength="11" min="8" /></p>
+ <p><input type="submit" value="Exportar por CPF" /></p>
+</form>
+
+
+</body>
+</html>
